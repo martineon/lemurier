@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+@font-face {
+  font-family: "Didot";
+  src: url('font/ufonts.com_didotlh-romanosf-opentype.otf');
+}
+html{
+  background-color: rgb(67, 70, 84);
+}
+#header{
+  background: url('../photos/photoretouch/cover3.jpg');
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100vw;
+  height: 35vw;
+  transition: background 1s ease-in;
+}
+.body{
+  height: auto;
+}
+.left-box-header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;;
+  height: 90%;
+  margin-left: 5%;
+}
+
+.logo-box{
+  /*background-color: rgb(75, 88, 80);*/
+  background: linear-gradient(to bottom, rgb(83, 85, 49), rgb(79, 107, 70));
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+  margin-top: -70px;
+  border: 3px solid white
+}
+.title-box{
+  height: 150px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: -80px;
+  margin-top: -30px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding-right: 60px;
+  /*border: 3px solid white;*/
+}
+.title{
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.48);
+  letter-spacing: 10px;
+  margin-left: 130px;
+}
+.sub-title{
+  color: rgb(240, 240, 240);
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.78);
+  font-weight: 300;
+  letter-spacing: 6px;
+  margin-left: 130px;
+}
+
+.menu{
+  width: 100%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu-list{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu-list a{
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.48);
+  font-family:'Quicksand', sans-serif;
+
+}
+.menu-list a:hover{
+  border-bottom: 1px solid white;
+}
+.menu-list li:first-child a{
+  border-bottom: 1px solid white;
+}
+.description{
+  background-image:
+  linear-gradient(rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.79)),
+  url('../img/texture-bg.png');
+  padding: 30px 100px;
+}
+.description h1{
+  color: rgb(140, 140, 140);
+  font-weight: 500;
+  width: 100%;
+  float: left;
+  font-family: 'Didot', serif;
+  font-weight: bold;
+}
+.description p{
+  text-align: justify;
+  margin: 60px 0;
+  color: rgb(191, 191, 191);
+  font-weight: 300;
+}
+.feedback-box{
+  padding: 30px 30px;
+  background-image:
+  linear-gradient(rgba(180, 204, 228, 0.8), rgba(180, 204, 228, 0.8)),
+  url('../img/texture-bg.png');
+}
+.feedback-box h3{
+  font-size: 40px;
+  font-weight: 300;
+  color: rgb(108, 107, 107);
+  width: auto;
+  text-align: center;
+  font-family: 'Didot', serif;
+  font-weight: bold;
+}
+.row{
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-around;
+}
+.feedback{
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  border-radius: 10px;
+  overflow: scroll;;
+}
+.feedback p{
+  color:rgb(191, 191, 191);
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: justify;
+  font-weight: 300;
+}
+.feedback h4{
+  color:rgb(140, 140, 140);
+  font-size: 15px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.footer{
+  background-color: rgb(67, 70, 84);
+  height: 300px
+}

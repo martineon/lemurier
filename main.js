@@ -1,3 +1,4 @@
+(function(){
   var headerBg = document.querySelector('#header');
   var img = ['photos/photoretouch/cover1.jpg', 'photos/photoretouch/cover2.jpg','photos/photoretouch/cover3.jpg', 'photos/photoretouch/cover4.jpg', 'photos/photoretouch/cover5.jpg', 'photos/photoretouch/cover6.jpg'];
   var currentBg = 0;
@@ -10,3 +11,4 @@
       currentBg = 0;
     };
   };
+})()

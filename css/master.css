@@ -11,7 +11,7 @@ html{
   background-color: rgb(67, 70, 84);
 }
 #header{
-  background: url('../photos/photoretouch/cover3.jpg');
+  /*background: url('../photos/photoretouch/cover3.jpg');*/
   background-position:  center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,3 +175,37 @@ html{
   background-color: rgb(67, 70, 84);
   height: 300px
 }
+
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }

@@ -28,7 +28,7 @@ html{
 .left-box-header{
   display: flex;
   align-items: center;
-  justify-content: flex-start;;
+  justify-content: flex-start;
   height: 90%;
   margin-left: 5%;
 }
@@ -153,7 +153,7 @@ html{
   height: 20vw;
   background-color: white;
   border-radius: 10px;
-  overflow: scroll;;
+  overflow: scroll;
 }
 .feedback p{
   color:rgb(191, 191, 191);

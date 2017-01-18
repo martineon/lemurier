@@ -5,7 +5,7 @@
   var bgImg = new Image()
   var slideInterval = setInterval(nextSlide,5000);
   function nextSlide(){
-    bgImg = img[currentBg];
+    bgImg.src = img[currentBg];
     headerBg.style.backgroundImage = 'url(' + bgImg + ')';
     currentBg = currentBg + 1;
     if (currentBg == img.length) {

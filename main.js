@@ -7,7 +7,6 @@
   bgImg.onload = sliderShow;
   var sliderShow = setInterval(function nextSlide(){
     headerBg.style.backgroundImage = 'url(' + bgImg + ')';
-    currentBg = currentBg + 1;
     if (currentBg == img.length) {currentBg = 0;};
     bgImg.src = img[currentBg + 1];
   }, 5000);

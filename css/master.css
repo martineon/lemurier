@@ -43,7 +43,7 @@ html{
   align-items: center;
   justify-content: space-around;
   z-index: 1;
-  margin-top: -80px;
+  margin-top: -100px;
   border: 3px solid white
 }
 .title-box{

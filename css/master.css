@@ -29,8 +29,10 @@ html{
   position: absolute;
   height: 100%;
   width: 100%;
-  z-index: -1
+  z-index: -1;
 }
+
+
 /* HEADER CONTENT */
 .header-content{
   height: 100%;
@@ -47,6 +49,7 @@ html{
   background: linear-gradient(to bottom, rgb(83, 85, 49), rgb(79, 107, 70));
   height: 150px;
   width: 150px;
+  margin-top: -80px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -60,6 +63,7 @@ html{
   display: flex;
   flex-direction: column;
   margin-left: -80px;
+  margin-top: -60px;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
   padding-right: 60px;
@@ -121,6 +125,8 @@ html{
 /*----------*/
 /*   BODY   */
 /*----------*/
+
+/* DESCRIPTION */
 .description{
   background-image:
   linear-gradient(rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.79)),
@@ -141,32 +147,51 @@ html{
   color: rgb(191, 191, 191);
   font-weight: 300;
 }
+/* LA CITE MEDIEVALE */
+
+.medieval{
+  padding: 30px 100px;
+  color: white;
+  background-image:
+  linear-gradient(rgba(185, 200, 140, 0.5), rgba(185, 200, 140, 0.5)),
+  url('../img/texture-bg.png');
+  border-top: 2px solid rgba(193, 193, 193, 0.53);
+  border-bottom: 2px solid rgba(193, 193, 193, 0.53);
+}
+.medieval h1{
+  font-family: 'Didot', serif;
+  font-weight: bold;
+  text-align: right;
+}
+/* FEEDBACK */
 .feedback-box{
   padding: 30px 30px;
   background-image:
-  linear-gradient(rgba(180, 204, 228, 0.8), rgba(180, 204, 228, 0.8)),
+  linear-gradient(rgba(147, 200, 140, 0.5), rgba(147, 200, 140, 0.5)),
   url('../img/texture-bg.png');
-}
-.feedback-box h3{
-  font-size: 40px;
-  font-weight: 300;
-  color: rgb(108, 107, 107);
-  width: auto;
-  text-align: center;
-  font-family: 'Didot', serif;
-  font-weight: bold;
 }
 .row{
   display: flex;
   margin: 30px 0;
   justify-content: space-around;
 }
+.feedback-box h3{
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+  width: auto;
+  text-align: center;
+  font-family: 'Didot', serif;
+  font-weight: bold;
+}
+
 .feedback{
   width: 20vw;
   height: 20vw;
   background-color: white;
   border-radius: 10px;
   overflow: scroll;
+  box-shadow: 0px 0px 5px rgba(120, 120, 120, 0.34);
 }
 .feedback p{
   color:rgb(191, 191, 191);
@@ -184,7 +209,24 @@ html{
   padding-top: 30px;
   padding-left: 30px;
 }
+
+/* FOOTER */
 .footer{
-  background-color: rgb(67, 70, 84);
-  height: 300px
+  display: flex;
+  justify-content: space-between;
+}
+.footer-infos{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px 30px;
+}
+.footer-infos h3{
+  color: rgb(131, 130, 116);
+  font-weight: 300;
+  padding-top: 10px;
+}
+.footer-logo{
+  padding: 40px 30px;
 }

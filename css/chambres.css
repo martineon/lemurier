@@ -8,7 +8,10 @@
   src: url('font/ufonts.com_didotlh-romanosf-opentype.otf');
 }
 html{
-  background-image: linear-gradient(rgba(245, 242, 226, 0.7),rgba(245, 242, 226, 0.7)), url('../img/texture-bg.png');;
+  background-color: rgb(67, 70, 84);
+}
+body{
+  background-image: linear-gradient(rgba(245, 242, 226, 0.7),rgba(245, 242, 226, 0.7)), url('../img/texture-bg.png');
 }
 .body{
   height: auto;
@@ -19,32 +22,27 @@ html{
 .header{
   display: flex;
   height: 25vw;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 35px;
 }
 /* LOGO */
 .logo-box{
   height: 20vw;
   width: 20vw;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   z-index: 1;
-  margin-top: 25;
 }
 
 /* MENU */
 .menu{
-  width: 90%;
-  /*height: 20vw;*/
+  width: 90vw;
   display: flex;
-  align-items: baseline;;
-  margin-top: 15px;
-  padding-top: 25px;
-  border-top: 2px solid rgb(131, 130, 116);
+  position: relative;
+  bottom: 30px;
 }
 .menu-list{
   height: 100%;
@@ -58,7 +56,7 @@ html{
 }
 .menu-list a{
   color: rgb(131, 130, 116);
-  font-size: 2.7vw;
+  font-size: 1.7vw;
   font-weight: 300;
   letter-spacing: 3px;
   text-decoration: none;
@@ -67,11 +65,11 @@ html{
   text-align: center;
 }
 .menu-list a:hover{
-  border-bottom: 2px solid rgb(131, 130, 116);
+  border-bottom: 1px solid rgb(131, 130, 116);
 }
 /* SOULIGNE CET PAGE */
 .menu-list li:nth-child(2) a{
-  border-bottom: 2px solid rgb(131, 130, 116);
+  border-bottom: 1px solid rgb(131, 130, 116);
 }
 
 
@@ -129,15 +127,14 @@ html{
   opacity: 1;
 }
 .row{
-  padding: 0 40px;
   display: flex;
-  /*width: 100%;*/
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
 }
 .row img{
   box-shadow: 0px 0px 15px rgba(185, 185, 185, 0.68);
+  margin: 20px;
 }
 
 /* VOIR PLUS */
@@ -156,4 +153,40 @@ html{
 .button h3{
   color: rgb(193, 194, 193);
   font-weight: 300;
+}
+
+/* FOOTER */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(67, 70, 84);
+  margin-top: 50px;
+}
+.footer-infos{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px 30px;
+}
+.footer-infos h3{
+  color: rgb(131, 130, 116);
+  font-weight: 300;
+  padding-top: 10px;
+}
+.footer-logo{
+  padding: 40px 30px;
+}
+
+@media (max-width: 900px ){
+  .row{
+    flex-direction: column;
+  }
+  .header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu{
+    position: static;
+  }
 }

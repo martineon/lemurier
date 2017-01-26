@@ -8,7 +8,7 @@
   src: url('font/ufonts.com_didotlh-romanosf-opentype.otf');
 }
 html{
-  background-image: linear-gradient(rgba(245, 242, 226, 0.7),rgba(245, 242, 226, 0.7)), url('../img/texture-bg.png');;
+  background-image: linear-gradient(rgba(245, 242, 226, 0.7),rgba(245, 242, 226, 0.7)), url('../img/texture-bg.png');
 }
 .body{
   height: auto;
@@ -18,9 +18,10 @@ html{
 
 .header{
   display: flex;
-  height: 20vw;
-  flex-direction: row;
-  justify-content: space-between;
+  height: 25vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* LOGO */
 .logo-box{
@@ -31,16 +32,18 @@ html{
   align-items: center;
   justify-content: space-around;
   z-index: 1;
+  margin-top: 25;
 }
 
 /* MENU */
 .menu{
-  width: 100%;
-  height: 20vw;
+  width: 90%;
+  /*height: 20vw;*/
   display: flex;
   align-items: baseline;;
-  position: relative;
-  bottom: 0;
+  margin-top: 15px; 
+  padding-top: 25px;
+  border-top: 2px solid rgb(131, 130, 116);
 }
 .menu-list{
   height: 100%;
@@ -60,7 +63,7 @@ html{
   text-decoration: none;
   font-family:'Quicksand', sans-serif;
   position: relative;
-  top: 14.2vw;
+  /*top: 14.2vw;*/
   text-align: center;
 }
 .menu-list a:hover{

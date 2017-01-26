@@ -102,7 +102,6 @@ body{
   color: rgba(101, 112, 86, 0.66);
   font-weight: 300;
   font-size: 20px;
-
 }
 .aurore{
   font-family: 'La Belle Aurore', cursive;
@@ -188,5 +187,14 @@ body{
   }
   .menu{
     position: static;
+  }
+}
+@media (max-width: 700px) {
+  .chambre h1{
+    text-align: center;
+  }
+  .chambre h2{
+    text-align: center;
+
   }
 }

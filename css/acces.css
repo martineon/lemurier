@@ -41,7 +41,7 @@ html{
   /*height: 20vw;*/
   display: flex;
   align-items: baseline;;
-  margin-top: 15px; 
+  margin-top: 15px;
   padding-top: 25px;
   border-top: 2px solid rgb(131, 130, 116);
 }
@@ -86,12 +86,13 @@ html{
   justify-content: space-around;
   align-items: center;
   width: 70vw;
-  height: 65vh;
-  background-color: white
+  height: 80vh;
+  background-color: white;
+
 }
 .container iframe {
-  box-shadow: 0px 0px 5px rgba(185, 185, 185, 0.48);
   width: 65vw;
   height: 70vh;
+  box-shadow: 0px 0px 15px rgba(185, 185, 185, 0.38);
 
 }

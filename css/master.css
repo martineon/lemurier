@@ -128,13 +128,11 @@ html{
 
 /* DESCRIPTION */
 .description{
-  background-image:
-  linear-gradient(rgba(255, 255, 255, 0.79), rgba(255, 255, 255, 0.79)),
-  url('../img/texture-bg.png');
+  background-image: linear-gradient(rgba(245, 242, 226, 0.7),rgba(245, 242, 226, 0.7)), url('../img/texture-bg.png');;
   padding: 30px 100px;
 }
 .description h1{
-  color: rgb(140, 140, 140);
+  color: rgb(101, 112, 86);
   font-weight: 500;
   width: 100%;
   float: left;
@@ -144,7 +142,7 @@ html{
 .description p{
   text-align: justify;
   margin: 60px 0;
-  color: rgb(191, 191, 191);
+  color: rgba(101, 112, 86, 0.66);
   font-weight: 300;
 }
 /* LA CITE MEDIEVALE */

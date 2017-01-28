@@ -22,28 +22,28 @@ body{
 
 .header{
   display: flex;
-  height: 25vw;
+  height: 15vw;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 35px;
+  padding: 20px;
 }
 /* LOGO */
 .logo-box{
-  height: 20vw;
-  width: 20vw;
+  height: 10vw;
+  width: 10vw;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 1;
 }
 
 /* MENU */
 .menu{
-  width: 90vw;
+  width: 60vw;
   display: flex;
   position: relative;
-  bottom: 30px;
+  bottom: 10px;
 }
 .menu-list{
   height: 100%;

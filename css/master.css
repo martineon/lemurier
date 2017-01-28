@@ -10,6 +10,9 @@
 html{
   background-color: rgb(67, 70, 84);
 }
+body{
+  background-image: linear-gradient(rgba(245, 242, 226, 0.7),rgba(245, 242, 226, 0.7)), url('../img/texture-bg.png');
+}
 .body{
   height: auto;
 }
@@ -17,113 +20,80 @@ html{
 /* HEADER */
 /*--------*/
 
-#header{
-  display: block;
-  width: 100vw;
-  height: 35vw;
-}
 
-/* CARROUSSEL */
-
-.header-bg{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-
-
-/* HEADER CONTENT */
-.header-content{
-  height: 100%;
-  width: 100vw;
-}
-.left-box-header{
+.header{
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  height: 90%;
-  margin-left: 5%;
+  height: 15vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
 }
+/* LOGO */
 .logo-box{
-  background: linear-gradient(to bottom, rgb(83, 85, 49), rgb(79, 107, 70));
-  height: 150px;
-  width: 150px;
-  margin-top: -80px;
-  border-radius: 50%;
+  height: 10vw;
+  width: 10vw;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 1;
-  border: 3px solid white
-}
-.title-box{
-  height: 150px;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  margin-left: -80px;
-  margin-top: -60px;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
-  padding-right: 60px;
-}
-.title{
-  font-size: 70px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  color: white;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.48);
-  letter-spacing: 10px;
-  margin-left: 130px;
-}
-.sub-title{
-  color: rgb(240, 240, 240);
-  font-family: 'Raleway', sans-serif;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.78);
-  font-weight: 300;
-  letter-spacing: 6px;
-  margin-left: 130px;
 }
 
 /* MENU */
 .menu{
-  height: 10%;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 60vw;
   display: flex;
-  align-items: center;
   position: relative;
-  bottom: 0;
-  padding: 0 100px;
+  bottom: 10px;
 }
 .menu-list{
   height: 100%;
   width: 100%;
   display: flex;
   position: relative;
+  bottom: 0;
   list-style-type: none;
-  justify-content: space-between;;
-  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 .menu-list a{
-  color: white;
+  color: rgb(131, 130, 116);
   font-size: 1.7vw;
   font-weight: 300;
   letter-spacing: 3px;
   text-decoration: none;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.48);
   font-family:'Quicksand', sans-serif;
-
+  position: relative;
+  text-align: center;
 }
 .menu-list a:hover{
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(131, 130, 116);
 }
+/* SOULIGNE CET PAGE */
 .menu-list li:first-child a{
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(131, 130, 116);
 }
+
 /*----------*/
 /*   BODY   */
 /*----------*/
+
+/* CARROUSSEL */
+.carrousel-bg{
+  width: 100vw;
+  height:40vw;
+  margin-bottom: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 15px rgba(185, 185, 185, 0.68);
+}
+.carrousel{
+  width: 100vw;
+  height: 35vw;
+  box-shadow: 0px 0px 15px rgba(185, 185, 185, 0.68);
+}
 
 /* DESCRIPTION */
 .description{
@@ -152,8 +122,7 @@ html{
   background-image:
   linear-gradient(rgba(185, 200, 140, 0.5), rgba(185, 200, 140, 0.5)),
   url('../img/texture-bg.png');
-  border-top: 2px solid rgba(193, 193, 193, 0.53);
-  border-bottom: 2px solid rgba(193, 193, 193, 0.53);
+  box-shadow: 0px 0px 15px rgba(185, 185, 185, 0.68);
 }
 .medieval h1{
   font-family: 'Didot', serif;
@@ -166,6 +135,7 @@ html{
   background-image:
   linear-gradient(rgba(147, 200, 140, 0.5), rgba(147, 200, 140, 0.5)),
   url('../img/texture-bg.png');
+  box-shadow: 0px 0px 15px rgba(185, 185, 185, 0.68);
 }
 .row{
   display: flex;
@@ -188,7 +158,7 @@ html{
   background-color: white;
   border-radius: 10px;
   overflow: scroll;
-  box-shadow: 0px 0px 5px rgba(120, 120, 120, 0.34);
+  box-shadow: 0px 0px 15px rgba(185, 185, 185, 0.68);
 }
 .feedback p{
   color:rgb(191, 191, 191);

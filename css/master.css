@@ -203,6 +203,7 @@ body{
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  background: rgb(67, 70, 84);;
 }
 .footer-infos{
   display: flex;

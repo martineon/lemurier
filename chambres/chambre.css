@@ -5,10 +5,6 @@
 .menu-list li:nth-child(2) a{
   border-bottom: 1px solid rgb(131, 130, 116);
 }
-.footer a{
-  text-decoration: none;
-  color: rgb(131, 130, 116)
-}
 
 /* BODY */
 

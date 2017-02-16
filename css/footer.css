@@ -1,0 +1,22 @@
+/* FOOTER */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(67, 70, 84);
+  margin-top: 50px;
+}
+.footer-infos{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px 30px;
+}
+.footer-infos h3{
+  color: rgb(131, 130, 116);
+  font-weight: 300;
+  padding-top: 10px;
+}
+.footer-logo{
+  padding: 40px 30px;
+}

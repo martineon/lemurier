@@ -1,0 +1,121 @@
+@import url('../css/header.css');
+@import url('../css/footer.css')
+
+/* SOULIGNE CET PAGE */
+.menu-list li:nth-child(2) a{
+  border-bottom: 1px solid rgb(131, 130, 116);
+}
+
+/* BODY */
+
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  /*height: 65vh;*/
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(185, 185, 185, 0.48);
+}
+/*INFOS CHAMBRE*/
+
+.infos-chambre{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  top: -20vw;
+}
+
+
+/* BANDEAU CHAMBRE */
+
+.bandeau-chambre{
+  width: 90vw;
+  height: 40vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.bandeau-chambre img{
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+/* NOM CHAMBRES */
+.infos-chambre h1{
+  /*padding: 10px 70px;*/
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+}
+.infos-chambre h2{
+  /*padding: 20px 70px 40px 70px;*/
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+.aurore{
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 80px;
+}
+.infos{
+  height: 90vh;
+}
+.btn-reserve{
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  /*border: 1px solid rgb(48, 58, 74);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  margin-bottom: -70px;
+  margin-top: 30px;
+}
+.btn-reserve a{
+  text-decoration: none;
+  color: rgb(38, 47, 36);
+  font-weight: 100;
+}
+.btn-reserve:active{
+  background-color: rgb(173, 171, 171);
+}
+.btn-reserve:active a{
+  color: rgb(84, 97, 81);
+}
+
+@media (max-width: 900px ){
+  .row{
+    flex-direction: column;
+  }
+  .header{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .menu{
+    position: static;
+    width: 80vw;
+  }
+}
+@media (max-width: 700px) {
+  .chambre h1{
+    text-align: center;
+  }
+  .chambre h2{
+    text-align: center;
+
+  }
+}

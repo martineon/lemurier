@@ -112,6 +112,10 @@
   justify-content: center;
   flex-direction: column;
 }
+.client-msg textarea{
+  border: 1px solid rgb(145, 145, 145);
+  border-radius: 2px;
+}
 .send-button{
   height: 30px;
   width: 100px;

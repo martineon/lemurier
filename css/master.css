@@ -20,7 +20,7 @@
 .carrousel-bg{
   width: 100vw;
   height:40vw;
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
   margin-top: -5vw;;
   /*background-color: white;*/
   display: flex;
@@ -35,22 +35,33 @@
 
 /* DESCRIPTION */
 .description{
-  background-image: linear-gradient(rgba(219, 219, 219, 0.7),rgba(219, 219, 219, 0.7)), url('../img/texture-bg.png');;
-  padding: 40px 100px;
+  display: flex;
+  margin: 3vw 0;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 90vw;
+  color: rgb(145, 145, 145);
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(185, 185, 185, 0.48);
 }
 .description h1{
   color: rgb(101, 112, 86);
+  margin-top: 3vw;
   font-weight: 500;
-  width: 100%;
+  width: 90%;
   float: left;
   font-family: 'Didot', serif;
   font-weight: bold;
+
 }
 .description p{
   text-align: justify;
   margin: 60px 0;
   color: rgba(101, 112, 86, 0.66);
   font-weight: 300;
+  width: 90%;
 }
 /* LA CITE MEDIEVALE */
 

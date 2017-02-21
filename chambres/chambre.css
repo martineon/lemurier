@@ -23,6 +23,25 @@
   background-color: white;
   box-shadow: 0px 0px 5px rgba(185, 185, 185, 0.48);
 }
+
+.braque{
+  background: url("../photos/chambres/chambre4/DSCN6784.JPG");
+  background-position:  bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chagall{
+  background: url("../photos/chambres/chambre3/IMG_2176.JPG");
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cezanne{
+  background: url("../photos/chambres/chambre1/FullSizeRender (004).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*INFOS CHAMBRE*/
 
 .infos-chambre{
@@ -54,20 +73,18 @@
 }
 /* NOM CHAMBRES */
 .infos-chambre h1{
-  /*padding: 10px 70px;*/
   color: white;
   font-weight: 300;
   font-size: 50px;
 }
 .infos-chambre h2{
-  /*padding: 20px 70px 40px 70px;*/
   color: white;
   font-weight: 300;
   font-size: 20px;
 }
 .aurore{
-  font-family: 'La Belle Aurore', cursive;
-  font-size: 80px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
 }
 .infos{
   height: 90vh;
@@ -76,7 +93,6 @@
   height: 30px;
   width: 100px;
   background-color: white;
-  /*border: 1px solid rgb(48, 58, 74);*/
   display: flex;
   justify-content: center;
   align-items: center;

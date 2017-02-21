@@ -38,7 +38,7 @@ body{
 
 /* MENU */
 .menu{
-  width: 60vw;
+  width: 80vw;
   display: flex;
   position: relative;
   bottom: 10px;

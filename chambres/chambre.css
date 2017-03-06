@@ -18,6 +18,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   width: 90vw;
   background-color: white;
   box-shadow: 0px 0px 5px rgba(185, 185, 185, 0.48);
@@ -49,10 +50,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: auto;
   top: -20vw;
 }
-
 
 /* BANDEAU CHAMBRE */
 
@@ -81,12 +82,22 @@
   font-weight: 300;
   font-size: 20px;
 }
+.descro-chambre{
+  width: 80%;
+  padding: 0 2vw 0 0vw;
+  margin-bottom: 1vw;
+  color: rgb(145, 145, 145);
+  font-weight: 200;
+}
+.descro-chambre:nth-child(2){
+  margin-bottom: 4vw;
+}
 .aurore{
   font-family: 'Amatic SC', cursive;
   font-size: 70px;
 }
 .infos{
-padding: 5vw 0;
+  padding: 5vw 0;
 }
 .img-container{
   width: 20vw;

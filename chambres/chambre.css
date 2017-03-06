@@ -19,7 +19,6 @@
   justify-content: space-around;
   align-items: center;
   width: 90vw;
-  /*height: 65vh;*/
   background-color: white;
   box-shadow: 0px 0px 5px rgba(185, 185, 185, 0.48);
 }
@@ -87,7 +86,25 @@
   font-size: 70px;
 }
 .infos{
-  height: 90vh;
+padding: 5vw 0;
+}
+.img-container{
+  width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 5px;
+  align-items: flex-end;
+}
+.portrait img{
+  width: 20vw;
+}
+.landscape img{
+  height: 20vw;
+}
+.rotation90{
+  transform: rotate(180deg);
 }
 .btn-reserve{
   height: 30px;

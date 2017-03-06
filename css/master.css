@@ -21,7 +21,7 @@
   width: 100vw;
   height:40vw;
   /*margin-bottom: 40px;*/
-  margin-top: -5vw;;
+  margin-top: -5vw;
   /*background-color: white;*/
   display: flex;
   align-items: center;
@@ -37,6 +37,7 @@
 .description{
   display: flex;
   margin: 3vw 0;
+  padding-bottom: 3vw;;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
@@ -49,6 +50,7 @@
 .description h1{
   color: rgb(101, 112, 86);
   margin-top: 3vw;
+  margin-bottom: 2vw;
   font-weight: 500;
   width: 90%;
   float: left;
@@ -58,10 +60,11 @@
 }
 .description p{
   text-align: justify;
-  margin: 60px 0;
+  margin: 10px 0;
   color: rgba(101, 112, 86, 0.66);
   font-weight: 300;
   width: 90%;
+
 }
 /* LA CITE MEDIEVALE */
 
